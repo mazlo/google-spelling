@@ -1,0 +1,5 @@
+This is a simple API to use Google Spelling service.
+
+There are no external dependencies. The code is compatible with Java 5+.
+
+This is an experimental project. Have fun =)
