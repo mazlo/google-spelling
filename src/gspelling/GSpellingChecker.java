@@ -48,7 +48,7 @@ public final class GSpellingChecker {
     private static final String UNKNOWN_ERROR = "Google API returns an unknown error.";
 
     /**
-     * Search the text to find spelling errors, and return the bad words.
+     * Search into the text and find spelling errors returning the bad words.
      * 
      * @param text The text to spell.
      * @param lang The language. (optional)

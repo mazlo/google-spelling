@@ -16,7 +16,7 @@
 package gspelling;
 
 /**
- * TODO improve docs
+ * Avaliable languages.
  * 
  * @author Otávio Scherer Garcia
  * @version $Revision$

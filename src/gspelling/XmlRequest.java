@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * TODO improve docs
+ * The request envelope to use remote service.
  * 
  * @author Otávio Scherer Garcia
  * @version $Revision$

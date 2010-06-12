@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * TODO improve docs
+ * Response envelope of remote service.
  * 
  * @author Otávio Scherer Garcia
  * @version $Revision$

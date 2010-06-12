@@ -16,7 +16,7 @@
 package gspelling;
 
 /**
- * TODO improve docs
+ * Exception that wraps all aplication exceptions.
  * 
  * @author Otávio Scherer Garcia
  * @version $Revision$

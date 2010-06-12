@@ -21,7 +21,7 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlValue;
 
 /**
- * TODO improve docs
+ * Response envelope that contains each suggestion item.
  * 
  * @author Otávio Scherer Garcia
  * @version $Revision$
