@@ -4,7 +4,7 @@ There are three ways to use the Google Spell Service:
 
 1) Searching into text and returns a list of Word object that contains the bad words and spell suggestions for own.
 <pre><code>List<Word> out = GSpellingChecker.checkWords("Boing is an amaing aircraft", ENGLISH);
-[Boing=[Boeing, Booing, Bing...], amaing=[aiming, arming, amazing, ...]</code></pre>
+// returns [Boing=[Boeing, Booing, Bing...], amaing=[aiming, arming, amazing, ...]</code></pre>
 
 2) Searching into text to find spelling errors, and return the bad words.
 <pre><code>List<String> out = GSpellingChecker.checkBadWords("Boing aircraft", ENGLISH);
