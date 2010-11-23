@@ -23,7 +23,6 @@ import javax.xml.bind.annotation.XmlRootElement;
  * The request envelope to use remote service.
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 @XmlRootElement(name = "spellrequest")
 @XmlAccessorType(XmlAccessType.FIELD)

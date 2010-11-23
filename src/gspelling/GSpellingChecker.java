@@ -34,7 +34,6 @@ import javax.xml.bind.JAXBException;
  * Provides a spell check using the Google Spell.
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 public final class GSpellingChecker {
 

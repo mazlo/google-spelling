@@ -19,7 +19,6 @@ package gspelling;
  * Exception that wraps all aplication exceptions.
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 public class GSpellingException
     extends Exception {

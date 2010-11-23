@@ -19,7 +19,6 @@ package gspelling;
  * Avaliable languages.
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 public enum GSpellingLanguage {
 

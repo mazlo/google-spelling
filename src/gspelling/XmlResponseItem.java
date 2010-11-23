@@ -24,7 +24,6 @@ import javax.xml.bind.annotation.XmlValue;
  * Response envelope that contains each suggestion item.
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 public final class XmlResponseItem {

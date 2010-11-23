@@ -28,7 +28,6 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Response envelope of remote service.
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 @XmlRootElement(name = "spellresult")
 @XmlAccessorType(XmlAccessType.FIELD)

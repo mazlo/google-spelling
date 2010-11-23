@@ -1,4 +1,4 @@
-This is a simple API to use Google Spelling service. There are no external dependencies and the code is compatible with Java 5+.
+This is a simple API to use Google Spelling service. There are no external dependencies and the code is compatible with Java 6+. If you want to use Java 5, you need to place JAXB jars in your classpath.
 
 There are three ways to use the Google Spell Service:
 

@@ -22,7 +22,6 @@ import java.util.List;
  * TODO improve docs
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 public class Word {
 

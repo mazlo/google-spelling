@@ -28,7 +28,6 @@ import org.junit.Test;
  * A simple class to testing methods with JUnit.
  * 
  * @author Otávio Scherer Garcia
- * @version $Revision$
  */
 public class GSpellingCheckerTest {
 
