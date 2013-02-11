@@ -13,34 +13,44 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gspelling;
+package org.garciajj.gspelling;
 
 /**
- * Exception that wraps all aplication exceptions.
+ * Avaliable languages.
  * 
  * @author Otávio Scherer Garcia
  */
-public class GSpellingException
-    extends Exception {
+public enum GSpellingLanguage {
 
-    /**
-     * 
-     */
-    private static final long serialVersionUID = 4210348840420615917L;
+    DANISH("da"),
 
-    public GSpellingException() {
-        super();
+    GERMAN("de"),
+
+    ENGLISH("en"),
+
+    SPANISH("es"),
+
+    FINNISH("fi"),
+
+    FRENCH("fr"),
+
+    ITALIAN("it"),
+
+    DUTCH("nl"),
+
+    POLISH("pl"),
+
+    PORTUGUESE("pt"),
+
+    SWEDISH("sv");
+
+    private final String code;
+
+    private GSpellingLanguage(String code) {
+        this.code = code;
     }
 
-    public GSpellingException(String message, Throwable cause) {
-        super(message, cause);
-    }
-
-    public GSpellingException(String message) {
-        super(message);
-    }
-
-    public GSpellingException(Throwable cause) {
-        super(cause);
+    public String code() {
+        return code;
     }
 }

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gspelling;
+package org.garciajj.gspelling;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -126,7 +126,7 @@ public final class GSpellingChecker {
         InputStream in = null;
 
         try {
-            final URL url = new URL(String.format(SERVICE_URL, lang));
+			final URL url = new URL( String.format( SERVICE_URL, lang.code() ) );
             final URLConnection conn = url.openConnection();
             conn.setDoOutput(true);
 

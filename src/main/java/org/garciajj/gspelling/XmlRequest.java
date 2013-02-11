@@ -13,38 +13,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gspelling;
+package org.garciajj.gspelling;
 
-import java.util.Collections;
-import java.util.List;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * TODO improve docs
+ * The request envelope to use remote service.
  * 
  * @author Otávio Scherer Garcia
  */
-public class Word {
+@XmlRootElement(name = "spellrequest")
+@XmlAccessorType(XmlAccessType.FIELD)
+public final class XmlRequest {
 
-    private String value;
-
-    private List<String> suggestions;
-
-    public Word(String value, List<String> suggestions) {
-        this.value = value;
-        this.suggestions = Collections.unmodifiableList(suggestions);
+    public XmlRequest() {
     }
 
-    public String getValue() {
-        return value;
+    private String text;
+
+    public XmlRequest(String text) {
+        // google don't like null values :o)
+        this.text = (text == null ? "" : text);
     }
 
-    public List<String> getSuggestions() {
-        return suggestions;
-    }
-
-    @Override
-    public String toString() {
-        return value + "=" + suggestions;
+    public String getText() {
+        return text;
     }
 
 }

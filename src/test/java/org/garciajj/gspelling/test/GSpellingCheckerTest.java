@@ -13,14 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gspelling.test;
+package org.garciajj.gspelling.test;
 
-import static gspelling.GSpellingLanguage.ENGLISH;
-import gspelling.GSpellingChecker;
-import gspelling.Word;
+import static org.garciajj.gspelling.GSpellingLanguage.ENGLISH;
 
 import java.util.List;
 
+import org.garciajj.gspelling.GSpellingChecker;
+import org.garciajj.gspelling.GSpellingLanguage;
+import org.garciajj.gspelling.Word;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -37,7 +38,7 @@ public class GSpellingCheckerTest {
         List<Word> out = null;
 
         // with errors
-        out = GSpellingChecker.checkWords("Boing is an amaing acraft", ENGLISH);
+		out = GSpellingChecker.checkWords( "bürgerfreundlich", GSpellingLanguage.GERMAN );
         System.out.println(out);
         Assert.assertTrue(out.size() > 0);
 
